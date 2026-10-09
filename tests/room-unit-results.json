@@ -1,0 +1,147 @@
+{
+  "suite": "RoomService + real Simulation / FakeIO transport unit tests ONLY",
+  "passed": 35,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Creates independent resume sessions without exposing tokens in room list",
+      "ok": true
+    },
+    {
+      "name": "Room creation assigns Player 1 and host",
+      "ok": true
+    },
+    {
+      "name": "An invalid room code cannot join",
+      "ok": true
+    },
+    {
+      "name": "Second player joins same room with Player 2 identity",
+      "ok": true
+    },
+    {
+      "name": "Online duplicate country selection is allowed",
+      "ok": true
+    },
+    {
+      "name": "Room capacity is enforced at two players",
+      "ok": true
+    },
+    {
+      "name": "Start without two ready players is refused; guest cannot start or change rules",
+      "ok": true
+    },
+    {
+      "name": "Settings validated; changes reset both ready states",
+      "ok": true
+    },
+    {
+      "name": "Both ready players start a shared server-owned simulation",
+      "ok": true
+    },
+    {
+      "name": "Room rules and chosen country lock during running match",
+      "ok": true
+    },
+    {
+      "name": "Each player builds only inside their own map using the same authoritative rules",
+      "ok": true
+    },
+    {
+      "name": "Duplicate command IDs return cached acknowledgement without executing twice",
+      "ok": true
+    },
+    {
+      "name": "Forged damage, resources, owner and invalid numeric payloads are refused",
+      "ok": true
+    },
+    {
+      "name": "Ownership validation rejects opposing factory production/cancellation",
+      "ok": true
+    },
+    {
+      "name": "Player 2 factory genuinely delivers a missile on server ticks",
+      "ok": true
+    },
+    {
+      "name": "Invalid or insufficient ammunition cannot create a missile",
+      "ok": true
+    },
+    {
+      "name": "Valid Player 2 launch consumes own stock and creates one authoritative missile",
+      "ok": true
+    },
+    {
+      "name": "Snapshots never leak enemy stock, resources, research or unseen structures",
+      "ok": true
+    },
+    {
+      "name": "Satellite observations are delivered as knowledge, not hidden authoritative fields",
+      "ok": true
+    },
+    {
+      "name": "Hidden launch events are filtered out without radar coverage",
+      "ok": true
+    },
+    {
+      "name": "Detected enemy missile sends only public track, not target or origin coordinates",
+      "ok": true
+    },
+    {
+      "name": "Online intelligence cannot be toggled by one client mid-game",
+      "ok": true
+    },
+    {
+      "name": "Public-info match snapshot retains enemy entities without their production queues",
+      "ok": true
+    },
+    {
+      "name": "Disconnect pauses the entire match and informs the connected opponent",
+      "ok": true
+    },
+    {
+      "name": "Authoritative time does not advance while opponent is disconnected",
+      "ok": true
+    },
+    {
+      "name": "Valid resume token restores same Player 2 nation, stock and IDs",
+      "ok": true
+    },
+    {
+      "name": "Concurrent reuse of a live session token is rejected",
+      "ok": true
+    },
+    {
+      "name": "Returning player can request a full explicit resync",
+      "ok": true
+    },
+    {
+      "name": "Command ack cache survives reconnect to prevent repeated purchases",
+      "ok": true
+    },
+    {
+      "name": "Malformed payload is caught at event boundary without stopping server",
+      "ok": true
+    },
+    {
+      "name": "Per-session rate budget bounds abusive event bursts",
+      "ok": true
+    },
+    {
+      "name": "Disconnect grace expiration closes room and frees simulation references",
+      "ok": true
+    },
+    {
+      "name": "Host transfer works for waiting-room departure",
+      "ok": true
+    },
+    {
+      "name": "Leaving an empty waiting room deletes it",
+      "ok": true
+    },
+    {
+      "name": "Idle disconnected sessions are eventually removed",
+      "ok": true
+    }
+  ]
+}

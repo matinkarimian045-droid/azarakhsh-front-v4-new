@@ -1,0 +1,11 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const root=path.resolve(__dirname,'..');
+const sources=['atlas-data.js','locale.js','config.js','atlas.js','flight-physics.js','engine.js','selftest.js'];
+const sandbox={console,atob,performance,Uint8Array,Map,Set};
+vm.createContext(sandbox);
+vm.runInContext(sources.map(f=>fs.readFileSync(path.join(root,'src',f),'utf8')).join('\n;\n')+'\n;globalThis.testRunner=runRebornSelfTests;',sandbox,{timeout:15000});
+const result=sandbox.testRunner({extended:!process.argv.includes('--quick')});
+fs.writeFileSync(path.join(__dirname,'engine-results.json'),JSON.stringify(result,null,2));
+for(const t of result.results)console.log((t.ok?'PASS':'FAIL')+' '+t.name+(t.ok?'':'\n'+t.error));
+console.log(`\n${result.passed} passed / ${result.failed} failed / ${result.durationMs} ms`);
+process.exitCode=result.failed?1:0;

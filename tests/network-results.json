@@ -1,0 +1,10 @@
+{
+  "version": "2.2.0-stage1",
+  "suite": "Real Express + Socket.IO integration",
+  "ran": false,
+  "status": "not_run",
+  "reason": "Transport dependencies unavailable; npm package installation blocked by authoring environment network restrictions. Included runner exited 2.",
+  "passed": 0,
+  "failed": 0,
+  "results": []
+}

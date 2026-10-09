@@ -1,0 +1,274 @@
+{
+  "version": "2.2.0-stage1",
+  "scope": "Chromium exact compiled HTML via set_content; local URL navigation is blocked by container policy. Webfonts deliberately blocked for offline-fallback layout testing. External MP3 files were not supplied.",
+  "passed": 53,
+  "failed": 0,
+  "errors": [],
+  "results": [
+    {
+      "name": "Game boots without uncaught JavaScript errors",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Main menu has offline and online entries",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No save/import/load buttons or API remain",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Menu has a procedural 3D-projected globe",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Offline-origin online entry explains that the Node server must be started",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Country image selection retains all seven countries",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Allies and enemies are explicit three-way buttons",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Initial budget input and presets are present",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Initial funds input is visible without scrolling at desktop size",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Fund preset changes selected budget",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Custom initial funds are accepted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Arcade style button works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Realistic style button works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Difficulty is an explicit selected button",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Zero preparation is labeled Off, not 00:00",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Full information option updates game setup",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Reconnaissance option is explicit and functional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Starting without any enemy is prevented",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "A valid roster enables start",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Start transfers selected funds, roster, mode and difficulty",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Dock has exactly ten primary commands",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 1 selects oilrig",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 2 selects factory",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 3 selects radar",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 4 selects aaa",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 5 selects sam",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 6 selects launcher",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 7 selects airbase",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 9 selects fighter strike, not patrol",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 0 sells fifty units of existing oil",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Hotkey 8 opens a button-based launch selector even with no ammo",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Escape closes the empty launch selector",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Actual map click queues factory construction",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Production panel shows factory cards, not mixed launch buttons",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Locked missile cards say research required",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Locked missile directs player to research",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Scientist button purchases real technology",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Factory production order spends money and creates a queued missile",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Completed ammunition is available in the top launch buttons",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Selecting a target launches a real missile and consumes ammo",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Separation leaves independent booster plus warhead",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Pause dialog contains no save action",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Settings remove audio-file diagnostics and reduced-motion control",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Settings expose useful camera shake and onboarding hint toggles",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "360px production drawer is visible and scrollable",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "360px root has no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Scientist action remains accessible on mobile",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile launch chooser fits the map",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile main menu shows both entries",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile setup has no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile setup footer start action stays in the viewport",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught runtime errors throughout browser interaction",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "No synthesized WebAudio constructors remain",
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

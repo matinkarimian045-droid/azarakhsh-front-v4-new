@@ -1,0 +1,69 @@
+{
+  "version": "2.6.0-legacy-missile-dynamics",
+  "scope": "Seeded funded renderer-integration fixtures. Exact compiled HTML via set_content, Chromium headless. No audio files supplied; not a frame-rate benchmark.",
+  "passed": 12,
+  "failed": 0,
+  "errors": [],
+  "results": [
+    {
+      "name": "Boost renders with attached body and accumulated exhaust positions",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Warhead separation is rendered with independent falling booster",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Incoming warhead enters descending terminal phase",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live scene includes fighter and missile engine rendering without faults",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Battle produces real damage or interception events",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Battle produces cannon or SAM launches",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Missed projectiles self-destruct instead of being silently erased",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Rendered effect count respects configured quality cap",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Sixty-plus seconds of engine/render integration remains finite",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "All ten mobile quick commands fit without horizontal scrolling",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Returning to menu clears battlefield notifications",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught JavaScript error in full battle render scenario",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

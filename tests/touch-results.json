@@ -1,0 +1,25 @@
+{
+  "version": "2.2.0-stage1",
+  "method": "Chromium mobile/touch emulation through CDP. Built HTML injected. Not a physical-device test.",
+  "results": [
+    {
+      "name": "Touch construction: drawer selection plus canvas tap builds one site",
+      "ok": true
+    },
+    {
+      "name": "Two-finger pinch changes camera zoom without accidental construction",
+      "ok": true
+    },
+    {
+      "name": "One-finger drag pans the map and releases all pointer state",
+      "ok": true
+    },
+    {
+      "name": "Touch session has no uncaught JavaScript error",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "passed": 4,
+  "failed": 0
+}

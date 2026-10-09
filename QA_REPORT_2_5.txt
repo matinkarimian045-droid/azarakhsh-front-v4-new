@@ -1,0 +1,15 @@
+Azarakhsh Front 2.5 - Economy + Rapid AAA
+
+Validated changes:
+- Manual oil sale has no simulation cooldown. Repeated sell commands consume real oil and credit money immediately.
+- AAA base fire interval is 0.12 simulation seconds per operational site, adjusted by site efficiency.
+- AAA rounds remain individual projectiles and preserve miss/overfly/self-destruct behavior.
+- SAM interceptor rework from 2.4 is unchanged.
+
+Automated checks run in this environment:
+- Engine/self tests: 71 passed / 0 failed
+- Combat regression: 40 passed / 0 failed
+- Multiplayer room/authority tests: 34 passed / 0 failed
+- JavaScript syntax checks: 29 passed / 0 failed
+
+No physical-device or real two-computer Socket.IO transport test was run in this update.

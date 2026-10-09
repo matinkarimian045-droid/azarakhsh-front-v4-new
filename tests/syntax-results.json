@@ -1,0 +1,128 @@
+{
+  "version": "2.5.0-economy-aaa-rework",
+  "scope": "JavaScript syntax only, not behavior or transport",
+  "passed": 30,
+  "failed": 0,
+  "results": [
+    {
+      "file": "src/app.js",
+      "ok": true
+    },
+    {
+      "file": "src/atlas-data.js",
+      "ok": true
+    },
+    {
+      "file": "src/atlas.js",
+      "ok": true
+    },
+    {
+      "file": "src/audio.js",
+      "ok": true
+    },
+    {
+      "file": "src/commands.js",
+      "ok": true
+    },
+    {
+      "file": "src/config.js",
+      "ok": true
+    },
+    {
+      "file": "src/engine.js",
+      "ok": true
+    },
+    {
+      "file": "src/flight-physics.js",
+      "ok": true
+    },
+    {
+      "file": "src/globe-land.js",
+      "ok": true
+    },
+    {
+      "file": "src/globe.js",
+      "ok": true
+    },
+    {
+      "file": "src/icons.js",
+      "ok": true
+    },
+    {
+      "file": "src/locale.js",
+      "ok": true
+    },
+    {
+      "file": "src/network.js",
+      "ok": true
+    },
+    {
+      "file": "src/render.js",
+      "ok": true
+    },
+    {
+      "file": "src/selftest.js",
+      "ok": true
+    },
+    {
+      "file": "src/ui.js",
+      "ok": true
+    },
+    {
+      "file": "server/load-simulation.cjs",
+      "ok": true
+    },
+    {
+      "file": "server/rooms.cjs",
+      "ok": true
+    },
+    {
+      "file": "server/snapshot.cjs",
+      "ok": true
+    },
+    {
+      "file": "tools/build.cjs",
+      "ok": true
+    },
+    {
+      "file": "tools/check-syntax.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/audio-check.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/combat22-test.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/make-snapshot-fixture.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/network-test.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/room-unit-test.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/run-engine.cjs",
+      "ok": true
+    },
+    {
+      "file": "tests/v42-test.cjs",
+      "ok": true
+    },
+    {
+      "file": "server.cjs",
+      "ok": true
+    },
+    {
+      "file": "index.html inline 1",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "Azarakhsh Front V4",
+  "base": "Azarakhsh Front V4",
+  "scope": "Azarakhsh Front V4 release package with V4 branding, Persian-only UI, updated hypersonic terminal dive and rain/SAM tuning",
+  "online_transport_verified": false,
+  "executed_checks": {
+    "engine_passed": 74,
+    "combat_passed": 37,
+    "room_server_unit_passed": 35,
+    "v4_feature_passed": 7,
+    "browser_ui_passed": 53,
+    "online_client_fixture_passed": 19,
+    "syntax_passed": 30,
+    "failed": 0
+  },
+  "notes": [
+    "Public game name is Azarakhsh Front V4 throughout the built game.",
+    "Hypersonic ascent timing is preserved while the terminal descent/dive curve is steeper and faster.",
+    "Rain carrier SAM interception chance is 30% per eligible SAM shot before payload release; the Israel SAM bonus remains excluded for rain.",
+    "Language switching is temporarily disabled; the game starts and remains Persian/RTL.",
+    "Automatic factories switch product in one click without requiring off/on.",
+    "Online gameplay remains server-authoritative through the shared Simulation source.",
+    "Real Socket.IO transport was not re-run because npm dependencies could not be installed in this sandbox."
+  ]
+}

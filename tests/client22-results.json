@@ -1,0 +1,84 @@
+{
+  "suite": "Browser client 2.2: UI + server snapshot fixture, NOT real Socket.IO",
+  "passed": 19,
+  "failed": 0,
+  "errors": [],
+  "results": [
+    {
+      "name": "Actual menu button triggers exactly one click cue",
+      "ok": true
+    },
+    {
+      "name": "Canvas and hotkeys do not produce button-click sounds",
+      "ok": true
+    },
+    {
+      "name": "Spaces contain bounded procedural stars",
+      "ok": true
+    },
+    {
+      "name": "Player 2 snapshot gives control of Player 2, not host",
+      "ok": true
+    },
+    {
+      "name": "Opponent is marked as enemy in Player 2 view",
+      "ok": true
+    },
+    {
+      "name": "Client cannot advance gameplay when server snapshots stop",
+      "ok": true
+    },
+    {
+      "name": "Player 2 sees its own factory rather than host factory",
+      "ok": true
+    },
+    {
+      "name": "Online production sends command, never gives local ammunition",
+      "ok": true
+    },
+    {
+      "name": "Online player has the same launch button picker",
+      "ok": true
+    },
+    {
+      "name": "Online pause menu explains that match clock remains shared",
+      "ok": true
+    },
+    {
+      "name": "Masked remote missile can be rendered without private source/target",
+      "ok": true
+    },
+    {
+      "name": "Stale snapshots are rejected",
+      "ok": true
+    },
+    {
+      "name": "Foreign room snapshots cannot replace the current match",
+      "ok": true
+    },
+    {
+      "name": "Disconnect banner appears and local presentation freezes",
+      "ok": true
+    },
+    {
+      "name": "Room lobby displays two seats and six-character invite code",
+      "ok": true
+    },
+    {
+      "name": "Host start stays disabled until BOTH seats are ready",
+      "ok": true
+    },
+    {
+      "name": "Room lobby fits 360px viewport without horizontal overflow",
+      "ok": true
+    },
+    {
+      "name": "Late snapshots cannot restart gameplay after leaving a room",
+      "ok": true
+    },
+    {
+      "name": "No unhandled errors in offline buttons, Player 2 view and room UI",
+      "ok": true
+    }
+  ]
+}

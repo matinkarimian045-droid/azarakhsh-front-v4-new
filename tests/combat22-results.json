@@ -1,0 +1,155 @@
+{
+  "suite": "2.8 independent SAM / truce / nightmare AI regression",
+  "passed": 37,
+  "failed": 0,
+  "results": [
+    {
+      "name": "ballistic/arcade projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "hyper/arcade projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "heavy/arcade projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "rain/arcade projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "ballistic/realistic projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "hyper/realistic projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "heavy/realistic projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "rain/realistic projected path follows legacy equation at 201 samples",
+      "ok": true
+    },
+    {
+      "name": "Hypersonic terminal descent accelerates while its payload is lighter than ballistic",
+      "ok": true
+    },
+    {
+      "name": "Hypersonic boost speed stays close to ballistic while terminal dive remains faster",
+      "ok": true
+    },
+    {
+      "name": "Hypersonic total flight stays close to ballistic but keeps a compressed terminal phase",
+      "ok": true
+    },
+    {
+      "name": "Every SAM interceptor has the same independent fifty-percent success probability",
+      "ok": true
+    },
+    {
+      "name": "Heavy remains expensive, powerful and research-gated while SAM per-shot chance stays universal",
+      "ok": true
+    },
+    {
+      "name": "Cruise trajectory has straight ground track, low altitude and exact endpoints",
+      "ok": true
+    },
+    {
+      "name": "SAM flight follows the reference ease-plus-sinusoidal-bend equation",
+      "ok": true
+    },
+    {
+      "name": "SAM aim is frozen after launch and a miss resolves at the planned crossing",
+      "ok": true
+    },
+    {
+      "name": "SAM fires only when the destination is inside its coverage and radar tracks the threat",
+      "ok": true
+    },
+    {
+      "name": "SAM does not fire without radar even when the destination is covered",
+      "ok": true
+    },
+    {
+      "name": "Multiple SAM sites each launch one interceptor and each gets a fresh fifty-percent roll",
+      "ok": true
+    },
+    {
+      "name": "A failed SAM interceptor does not consume the next battery fifty-percent roll",
+      "ok": true
+    },
+    {
+      "name": "Assigned ballistic SAM interceptor physically meets the moving missile",
+      "ok": true
+    },
+    {
+      "name": "Cruise remains SAM-disabled and is still handled by Reborn rapid AAA",
+      "ok": true
+    },
+    {
+      "name": "Rain carrier releases ten slower, stronger staggered submunitions at release phase",
+      "ok": true
+    },
+    {
+      "name": "More than one submunition may damage a city, not repeatedly destroy a stacked structure",
+      "ok": true
+    },
+    {
+      "name": "Fifty launch requests at one timestamp produce only three real launches",
+      "ok": true
+    },
+    {
+      "name": "Invalid launch never spends command capacity or ammunition",
+      "ok": true
+    },
+    {
+      "name": "Manual oil sales can be repeated immediately without an in-game shipment cooldown",
+      "ok": true
+    },
+    {
+      "name": "Four-factory stack improves throughput sublinearly; all queued products are paid",
+      "ok": true
+    },
+    {
+      "name": "Both human players have independent stats, research XP and citizen comments",
+      "ok": true
+    },
+    {
+      "name": "Human opponent never receives AI actions, free AI income or automatic oil sales",
+      "ok": true
+    },
+    {
+      "name": "Command ownership rejects changing opponent factory or canceling opponent work",
+      "ok": true
+    },
+    {
+      "name": "Command gateway rejects nonfinite points, forged outcomes and prototype keys",
+      "ok": true
+    },
+    {
+      "name": "Human truce lasts five minutes and either player can break it immediately",
+      "ok": true
+    },
+    {
+      "name": "Intel rule cannot be changed by a mid-match command",
+      "ok": true
+    },
+    {
+      "name": "Sustained player attack pressure makes an AI enemy send a ceasefire request without waiting for its normal offer timer",
+      "ok": true
+    },
+    {
+      "name": "An AI enemy can break an accepted five-minute ceasefire after rebuilding and rearming",
+      "ok": true
+    },
+    {
+      "name": "Nightmare AI has an emergency rebuild reserve for destroyed critical infrastructure",
+      "ok": true
+    }
+  ]
+}

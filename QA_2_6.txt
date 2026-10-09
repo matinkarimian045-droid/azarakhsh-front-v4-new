@@ -1,0 +1,18 @@
+Azarakhsh Front 2.6 - QA Summary
+
+Executed checks:
+- Engine/self-test: 71 passed / 0 failed
+- Combat 2.6 regression: 33 / 0
+- Room/server unit logic: 34 / 0
+- JavaScript syntax: 29 / 0
+- Browser UI: 52 / 0
+- Multiplayer client UI: 19 / 0
+- Touch emulation: 4 / 0
+- Visual battle integration: 12 / 0
+- Audio mapping: 20 / 0
+
+Total executed: 274 passed / 0 failed.
+
+Real Socket.IO transport test: NOT RUN in this environment because transport
+dependencies are not installed. Run npm install, then npm run test:network on the
+target machine before treating online transport as verified.

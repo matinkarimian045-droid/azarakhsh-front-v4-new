@@ -1,0 +1,20 @@
+Azarakhsh Front 2.7 — QA SUMMARY
+
+Executed for this update:
+- Engine/self tests: 71 passed / 0 failed
+- Missile/SAM regression tests: 33 passed / 0 failed
+- Multiplayer room/server unit tests: 34 passed / 0 failed
+- JavaScript syntax checks: 29 passed / 0 failed
+- Targeted Chromium visual check: PASS
+
+Targeted visual assertions:
+- A SAM interceptor was rendered with a persistent path from its launch site.
+- The trail contained more than two sampled points during flight.
+- After the interceptor ended, the smoke remained visible during fade.
+- After 3 seconds of fade time, the trail collection removed it.
+- No uncaught browser page errors were recorded in this targeted check.
+
+Not re-verified in this update:
+- Real two-computer Socket.IO transport.
+- Physical mobile devices / Safari / Firefox.
+- User-provided MP3 audio files.

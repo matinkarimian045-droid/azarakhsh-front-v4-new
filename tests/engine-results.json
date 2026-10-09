@@ -1,0 +1,380 @@
+{
+  "suite": "Azarakhsh Front Reborn / deterministic engine",
+  "version": "Azarakhsh Front V4",
+  "extended": true,
+  "passed": 74,
+  "failed": 0,
+  "durationMs": 9623,
+  "results": [
+    {
+      "name": "Every nation: cities lie on valid land, including Israel in every role",
+      "ok": true,
+      "ms": 1028
+    },
+    {
+      "name": "Land masks reject outside points and water",
+      "ok": true,
+      "ms": 58
+    },
+    {
+      "name": "Construction pays once, completes after its timer",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "Construction cancel refunds its actual reserved budget",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "Invalid land/build overlap cannot consume resources",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Stack expansion adds capacity without duplicate markers",
+      "ok": true,
+      "ms": 41
+    },
+    {
+      "name": "No national hard cap: twelve launchers can be built",
+      "ok": true,
+      "ms": 41
+    },
+    {
+      "name": "Israeli AI stacks by nation, not the old sector index",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Realistic direct damage: first disables half; second destroys entire stack",
+      "ok": true,
+      "ms": 42
+    },
+    {
+      "name": "Arcade direct damage destroys a complete stack in one impact",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "One rain salvo does not double count damage on a site",
+      "ok": true,
+      "ms": 37
+    },
+    {
+      "name": "Paid production queues deliver ammunition, not instant stock",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Queue cancellation refunds remaining rounds only",
+      "ok": true,
+      "ms": 37
+    },
+    {
+      "name": "Damaged factory throughput is halved",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Research deducts technology and unlocks only when complete",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "Research dependencies and one-slot research lock are enforced",
+      "ok": true,
+      "ms": 46
+    },
+    {
+      "name": "Oil research increases rate and sale price by fifty percent",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "Scientists provide immediate and persistent technology at rising cost",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "High satisfaction grants twenty-two percent oil and twenty-five percent technology",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "City impacts lower satisfaction more than empty-land impacts",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Selling oil and weapons exchanges existing inventory only",
+      "ok": true,
+      "ms": 50
+    },
+    {
+      "name": "Manual oil sales can be repeated immediately with no shipment cooldown",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Invalid numeric trades and queues cannot introduce NaN",
+      "ok": true,
+      "ms": 37
+    },
+    {
+      "name": "Missile launch needs ammunition, valid target and ready launcher",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Preparation prevents missile, aircraft and satellite combat launches",
+      "ok": true,
+      "ms": 43
+    },
+    {
+      "name": "All trajectories share exact start/end points with preview",
+      "ok": true,
+      "ms": 2
+    },
+    {
+      "name": "Boosters separate as independent falling objects",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Rain carrier releases ten staggered slower payloads at sixty-four percent flight",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "SAM requires both destination coverage and radar tracking before firing",
+      "ok": true,
+      "ms": 78
+    },
+    {
+      "name": "SAM never shoots cruise; AAA cruise base chance is seventy-six percent",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Realistic AAA cruise base chance is eighty-two percent",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Every physical SAM site gets its own independent fifty-percent roll",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "SAM does not fire at all without radar tracking",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Defense research expands radar and SAM coverage but every SAM roll stays fifty percent",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "Assigned ballistic interceptor physically reaches the moving target",
+      "ok": true,
+      "ms": 43
+    },
+    {
+      "name": "Orphan AAA rounds continue moving before self-destruction",
+      "ok": true,
+      "ms": 44
+    },
+    {
+      "name": "Unknown intel, drone contact, satellite identification and stale expiry",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "Intel OFF reveals targets and cancels orbital research and launches",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "Satellite launches from a launcher, deploys, scans and identifies",
+      "ok": true,
+      "ms": 41
+    },
+    {
+      "name": "Anti-satellite needs research, ammunition and an orbiting hostile target",
+      "ok": true,
+      "ms": 45
+    },
+    {
+      "name": "Patrol aircraft actively leave patrol to intercept an intruding drone",
+      "ok": true,
+      "ms": 66
+    },
+    {
+      "name": "Strike payload impacts seven simulation seconds after the flyby cue",
+      "ok": true,
+      "ms": 47
+    },
+    {
+      "name": "Recon sortie records unknown contacts, not exact structures",
+      "ok": true,
+      "ms": 45
+    },
+    {
+      "name": "Operation planner reserves ammunition and refunds a canceled plan",
+      "ok": true,
+      "ms": 43
+    },
+    {
+      "name": "Operation waves dispatch according to actual schedule and launcher readiness",
+      "ok": true,
+      "ms": 47
+    },
+    {
+      "name": "Ceasefire blocks new attacks and refunds targeted queued ammunition",
+      "ok": true,
+      "ms": 41
+    },
+    {
+      "name": "Diplomatic requests have both real acceptance and refusal branches",
+      "ok": true,
+      "ms": 81
+    },
+    {
+      "name": "Ally support transfers actual resources and applies a cooldown",
+      "ok": true,
+      "ms": 61
+    },
+    {
+      "name": "Event payload cannot override the event identifier",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "Victory and defeat are determined by city control states",
+      "ok": true,
+      "ms": 76
+    },
+    {
+      "name": "Initial funds choice is applied to every faction and validated",
+      "ok": true,
+      "ms": 358
+    },
+    {
+      "name": "Simulation contains no save/load API",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "Dock and keyboard use the requested identical build order",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "All ballistic families rise, separate at the apex and descend",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "Cruise remains low with a straight ground track",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "SAM launches toward the reference future crossing point, not current position",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "SAM path uses the fixed ease-plus-bend reference curve and never retargets",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "Each AAA fires a rapid sequential stream instead of slow half-second shots",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "Separate AAA sites keep staggered first shots during rapid fire",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "AAA miss passes its former aim point before its yellow self-destruct event",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "A target without reachable SAMs is not automatically intercepted",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "name": "SAM reference engagement gate starts at twenty percent flight progress",
+      "ok": true,
+      "ms": 43
+    },
+    {
+      "name": "User combat sound paths are unchanged; click is an original PCM sample",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "Research locks production instead of pretending every button is available",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "A production order is attached to its chosen factory only",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "name": "Release: ballistic production is easier than hyper production",
+      "ok": true,
+      "ms": 39
+    },
+    {
+      "name": "Release: changing an active automatic factory product switches without off-on workaround",
+      "ok": true,
+      "ms": 41
+    },
+    {
+      "name": "Release: SAM kill chances are per interceptor with hyper at ten percent and rain at thirty percent",
+      "ok": true,
+      "ms": 0
+    },
+    {
+      "name": "Fighter begins on the runway and climbs during takeoff",
+      "ok": true,
+      "ms": 48
+    },
+    {
+      "name": "Extended: every AI country builds oil, factory, launcher and defensive sites",
+      "ok": true,
+      "ms": 992
+    },
+    {
+      "name": "Extended: realistic AI uses both reconnaissance drones and satellites",
+      "ok": true,
+      "ms": 577
+    },
+    {
+      "name": "Extended: intel-off AI attacks without satellite research or sorties",
+      "ok": true,
+      "ms": 177
+    },
+    {
+      "name": "Extended: AI researches and produces ASAT before attacking an enemy satellite",
+      "ok": true,
+      "ms": 267
+    },
+    {
+      "name": "Extended: six factions for ten simulation minutes stay finite with unique IDs",
+      "ok": true,
+      "ms": 3660
+    }
+  ]
+}

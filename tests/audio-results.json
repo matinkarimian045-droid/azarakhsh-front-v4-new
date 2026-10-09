@@ -1,0 +1,88 @@
+{
+  "version": "2.2.0-stage1",
+  "scope": "Mock HTMLMediaElement routing/time synchronization. Actual MP3 files were not provided; this is not an audible waveform test.",
+  "passed": 20,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Seven MP3 combat pools plus one embedded click pool are created",
+      "ok": true
+    },
+    {
+      "name": "Persian/space-containing names are URI encoded at assignment",
+      "ok": true
+    },
+    {
+      "name": "Button click is a short media sample, not a combat synthesizer",
+      "ok": true
+    },
+    {
+      "name": "MISSILE_LAUNCHED/ballistic maps to launch",
+      "ok": true
+    },
+    {
+      "name": "INTERCEPTOR_LAUNCHED/sam maps to sam",
+      "ok": true
+    },
+    {
+      "name": "INTERCEPTOR_LAUNCHED/aaa maps to aaa",
+      "ok": true
+    },
+    {
+      "name": "MISSILE_INTERCEPTED/fighter maps to intercept",
+      "ok": true
+    },
+    {
+      "name": "MISSILE_IMPACT/drone maps to explosion",
+      "ok": true
+    },
+    {
+      "name": "AIRCRAFT_LAUNCHED/patrol maps to takeoff",
+      "ok": true
+    },
+    {
+      "name": "Strike starts from clip second zero",
+      "ok": true
+    },
+    {
+      "name": "Flyby is at 6.98 seconds just before impact",
+      "ok": true
+    },
+    {
+      "name": "Impact aligns to clip second seven",
+      "ok": true
+    },
+    {
+      "name": "Pause freezes the file sound with the game",
+      "ok": true
+    },
+    {
+      "name": "Fast forward uses simulation playback rate",
+      "ok": true
+    },
+    {
+      "name": "Background tab pauses ongoing sound",
+      "ok": true
+    },
+    {
+      "name": "Intercepted strike cancels its scheduled explosion file",
+      "ok": true
+    },
+    {
+      "name": "Fighter loss after release does not cancel its independent missile",
+      "ok": true
+    },
+    {
+      "name": "One gun shot uses a short file slice instead of a sustained burst",
+      "ok": true
+    },
+    {
+      "name": "Missing MP3 becomes silent unavailable state with no synthesis",
+      "ok": true
+    },
+    {
+      "name": "Exit stops every audio voice",
+      "ok": true
+    }
+  ]
+}

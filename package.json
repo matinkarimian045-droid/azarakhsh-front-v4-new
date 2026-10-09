@@ -1,0 +1,23 @@
+{
+  "name": "azarakhsh-front-v4",
+  "version": "4.2.0",
+  "private": true,
+  "description": "Azarakhsh Front V4 - online nation perks, Persian UI, missile market, diplomacy requests and rain/SAM tuning",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "node tools/build.cjs",
+    "test": "node tests/run-engine.cjs && node tests/combat22-test.cjs && node tests/room-unit-test.cjs && node tests/v42-test.cjs",
+    "test:network": "node tests/network-test.cjs",
+    "test:syntax": "node tools/check-syntax.cjs"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "socket.io": "4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "4.8.4"
+  }
+}

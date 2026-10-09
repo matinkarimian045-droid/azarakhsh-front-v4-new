@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#071310"><meta name="description" content="Azarakhsh Front V4 - tactical strategy game."><title>Azarakhsh Front V4</title><link rel="icon" type="image/png" href="music/V4.png"><link rel="apple-touch-icon" href="music/V4.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"><style>/*__STYLE__*/</style></head>
+<body class="menu-open">
+<canvas id="world" aria-label="Tactical battlefield"></canvas>
+<div id="ui">
+ <header id="topbar">
+  <div class="brand panel"><div class="brandmark"><img src="music/V4.png" alt="V4"></div><div><b>AZARAKHSH FRONT</b><small>Azarakhsh Front V4</small></div></div>
+  <div class="resource-bar panel">
+   <div class="resource"><span data-icon="money"></span><div><label data-l="money"></label><b id="moneyValue">0</b><small id="incomeValue"></small></div></div>
+   <div class="resource"><span data-icon="oil"></span><div><label data-l="oil"></label><b id="oilValue">0</b><small id="oilPriceValue"></small></div></div>
+   <div class="resource tech"><span data-icon="tech"></span><div><label data-l="tech"></label><b id="techValue">0</b><small id="techRateValue"></small></div></div>
+   <div class="resource citizen"><span data-icon="people"></span><div><label data-l="citizens"></label><b id="satisfactionValue">0</b><small id="citizenTrend"></small></div></div>
+  </div>
+  <div class="hud-tools panel"><div class="speed-control"><button data-act="speed" data-value="0" data-icon="pause" aria-label="Pause"></button><button data-act="speed" data-value="1" class="on">1x</button><button data-act="speed" data-value="2">2x</button><button data-act="speed" data-value="4">4x</button></div><button class="icon-button" data-act="pause" data-icon="pause" aria-label="Pause menu"></button><button class="icon-button" data-act="settings" data-icon="settings" aria-label="Settings"></button></div>
+ </header>
+ <nav id="rail" class="panel hud" aria-label="Commands"></nav>
+ <aside id="drawer" class="panel hud"><div class="drawer-head"><div><div id="drawerKicker" class="eyebrow">COMMAND SYSTEM</div><h2 id="drawerTitle"></h2></div><button class="icon-button" data-act="closeDrawer" data-icon="close" aria-label="Close panel"></button></div><div id="drawerContent" class="drawer-body"></div></aside>
+ <div id="sectorLabel"><div id="sectorName"></div><div class="sector-status"><i class="live-dot"></i><span id="modeName"></span></div></div>
+ <div id="phaseBanner" class="phase-banner"><small id="phaseTitle" data-l="prep"></small><b id="phaseClock">02:00</b></div>
+ <button id="threatAlert" class="hidden pulse" data-act="focusThreat"></button>
+ <aside id="briefing" class="hud"><section class="panel"><div class="brief-head"><b><i class="live-dot"></i><span data-l="news"></span></b><span data-icon="news"></span></div><div id="newsFeed"></div></section><section class="panel"><div class="brief-head"><b data-l="voice"></b><span data-icon="people"></span></div><div class="voice-body"><p id="voiceText"></p><div class="voice-meter"><i id="voiceBar"></i></div><div class="voice-meta"><span data-l="citizens"></span><b id="voiceValue"></b></div></div></section></aside>
+ <aside id="inspector" class="panel hud hidden"></aside>
+ <section id="minimapBox" class="panel hud"><div class="map-header"><span class="eyebrow">TACTICAL OVERVIEW</span><button data-act="overview" data-l="overview"></button></div><canvas id="minimap" aria-label="World overview"></canvas></section>
+ <div id="mapTools" class="panel hud"><button class="icon-button" data-act="zoomIn" data-icon="plus" aria-label="Zoom in"></button><button class="icon-button" data-act="zoomOut" data-icon="minus" aria-label="Zoom out"></button><button class="icon-button" data-act="home" data-icon="target" aria-label="Home territory"></button><button class="icon-button" data-act="overview" data-icon="map" aria-label="Overview"></button><button class="icon-button" data-act="tactical" data-icon="shield" aria-label="Tactical mode [Space]"></button><span id="zoomValue">1.0x</span></div>
+ <div id="commanderBadge"><span>COMMAND</span><b id="commandLevel">01</b><span id="commandXP">0 / 55</span></div>
+ <section id="weaponPicker" class="panel hud hidden" aria-live="polite"></section><div id="objectiveHint"></div><div id="modeHint" class="hidden"></div><nav id="quickDock" class="hud" aria-label="Quick access"></nav>
+</div>
+<main id="menuLayer">
+ <header class="menu-top"><div class="menu-brand"><div class="brandmark"><img src="music/V4.png" alt="V4"></div><span>AZARAKHSH FRONT</span></div><span class="version-stamp"><b>Azarakhsh Front V4</b></span></header>
+ <div class="menu-content">
+  <section class="hero-copy"><div class="eyebrow">TACTICAL WARFARE / COMMAND EDITION</div><h1 class="azarakhsh-title" dir="ltr">AZARAKHSH</h1><h2 data-l="menuTitle"></h2>
+   <div class="hero-actions">
+    <button class="mode-entry offline-entry" data-act="setup"><span class="entry-icon" data-icon="shield"></span><span><b data-l="offline"></b><small data-l="offlineHint"></small></span><span data-icon="arrow"></span></button>
+    <button class="mode-entry online-entry" data-act="online"><span class="entry-icon" data-icon="map"></span><span><b data-l="online"></b><small data-l="onlinePending"></small></span><span data-icon="arrow"></span></button>
+   </div>
+   <div class="hero-sub-actions"><button data-act="settings"><span data-icon="settings"></span><span data-l="settings"></span></button><button data-act="help"><span data-icon="operations"></span><span data-l="help"></span></button><button data-act="credits"><span data-l="credits"></span></button></div>
+  </section>
+  <div class="globe-caption"><i></i><span>GLOBAL THEATER</span><small>STRATEGIC OPERATIONS / 01</small></div>
+ </div>
+ <footer class="menu-bottom"><span>AZARAKHSH / INDEPENDENT STRATEGY</span><span data-l="fiction"></span></footer>
+</main>
+<div id="dialogLayer" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><div id="dialogBox" class="dialog"><header class="dialog-header"><div><div id="dialogKicker" class="eyebrow">AZARAKHSH / REBORN</div><h2 id="dialogTitle"></h2></div><button class="icon-button" data-act="closeDialog" data-icon="close" aria-label="Close"></button></header><div id="dialogContent" class="dialog-content"></div><footer id="dialogFooter" class="dialog-footer"></footer></div></div>
+<div id="loadingLayer"><div class="loading-card"><div class="brandmark"><img src="music/V4.png" alt="V4"></div><div class="eyebrow">INITIALIZING COMMAND NETWORK</div><p data-l="initializing"></p><div class="loading-track"><i></i></div></div></div>
+<div id="toasts" aria-live="polite"></div><div id="errorGuard" role="alert"></div>
+<div id="networkStatus" class="network-status hidden" aria-live="polite"></div><div id="diplomacyRequestBanner" class="diplomacy-request-banner hidden" aria-live="assertive"></div>
+<script>/*__SCRIPTS__*/</script>
+</body></html>
